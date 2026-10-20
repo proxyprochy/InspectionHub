@@ -1,0 +1,107 @@
+# InspectionHub .gitignore
+# Prepared with help from ChatGPT (OpenAI)
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/repositories.config
+
+# Test results
+TestResults/
+*.trx
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# .NET tooling
+artifacts/
+BenchmarkDotNet.Artifacts/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Application data / runtime data
+Data/
+data/
+Storage/
+storage/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Publish output
+publish/
+PublishProfiles/
+
+# User-specific publish settings
+*.pubxml.user
+
+# Secrets / local configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+!.env.example
+
+# Certificates / keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Generated files
+Generated/
+generated/
+
+# Images / inspection runtime output
+InspectionImages/
+inspection-images/
+
+# SQLite journal files
+*.db-journal
+*.sqlite-journal
+
+# Backup files
+*.backup
+*.old
